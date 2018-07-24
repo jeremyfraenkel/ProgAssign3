@@ -14,5 +14,8 @@ I then selected the relevant columns (the ones which have "merge()" or "std()").
 
 After doing that and using the features names as column names in merge_X (I renamed it by removing the "()" from the names and gave a longer description of each column in the CodeBook), I merged all the 3 data frames together in merge_all.
 
+The CodeBook should be opened in RStudio using the following command:
+View(read.table("CodeBook.md"))
+
 Lastly, I used a long version for the tidy dataset. My tidy dataset has a table for each of the variable based on each subject and activity. The data meets all the criteria for a tidy dataset. 
 
